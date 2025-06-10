@@ -21,8 +21,10 @@
         echo "
         <form method=post action=20.user_edit.php>
             <input type=hidden name=id value={$row['id']}>
+    // 顯示使用者的帳號
             帳號：{$row['id']}<br> 
             密碼：<input type=text name=pwd value={$row['pwd']}><p></p>
+    // 表單提交按鈕，顯示文字為「修改」
             <input type=submit value=修改>
         </form>
         ";
