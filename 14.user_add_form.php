@@ -14,11 +14,11 @@
     else{    
         echo "
             <form action=15.user_add.php method=post>
-<!-- 輸入使用者帳號的欄位，name 為 id -->
+# 輸入使用者帳號的欄位，name為id
                 帳號：<input type=text name=id><br>
-<!-- 輸入使用者密碼的欄位，name 為 pwd -->
+# 輸入使用者密碼的欄位，name為pwd
                 密碼：<input type=text name=pwd><p></p>
-<!-- 送出表單的按鈕，顯示文字為 "新增",重設表單內容的按鈕，顯示文字為 "清除" -->
+# 送出表單的按鈕，顯示文字為 "新增",重設表單內容的按鈕，顯示文字為 "清除"
                 <input type=submit value=新增> <input type=reset value=清除>
             </form>
         ";
